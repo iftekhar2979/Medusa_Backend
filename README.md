@@ -3,13 +3,13 @@
 Clone the project
 
 ```bash
-  git clone https://github.com/iftekhar2979/Medusa_Ecomerce.git
+  git clone https://github.com/iftekhar2979/Medusa_Backend.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd Medusa_Ecomerce
+  cd Medusa_Backend
 
 ```
 
@@ -22,9 +22,14 @@ Install dependencies
 Start the server
 
 ```bash
-  npm run dev
+  medusa develop
 ```
-
+```bash
+  http//:localhost:9000 //server
+```
+```bash
+  http//:localhost:7001 //admin Dashboard
+```
 ## Credential 
 Admin : admin@medusa-test.com
 password : supersecret
@@ -64,4 +69,3 @@ Join our [Discord server](https://discord.com/invite/medusajs) to meet other com
 - [Twitter](https://twitter.com/medusajs)
 - [LinkedIn](https://www.linkedin.com/company/medusajs)
 - [Medusa Blog](https://medusajs.com/blog/)
-# Medusa_Backend
