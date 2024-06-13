@@ -30,9 +30,20 @@ Start the server
 ```bash
   http//:localhost:7001 //admin Dashboard
 ```
+## environment Setup
+
+```bash
+JWT_SECRET=something
+COOKIE_SECRET=something
+
+DATABASE_TYPE="postgres"
+REDIS_URL=redis://localhost:6379
+DATABASE_URL=postgres://[YOUR DATABASE USER NAME]:[YOUR DATABASE PASSWORD]@localhost:[YOUR DATABASE PORT]/[YOUR DATABASE NAME]
+```
 ## Credential 
 Admin : admin@medusa-test.com
 password : supersecret
+
 ## Compatibility
 
 This starter is compatible with versions >= 1.8.0 of `@medusajs/medusa`. 
